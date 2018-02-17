@@ -20,8 +20,8 @@
 # in tasks/generate.py called "installer". It can be invoked by using
 # ``invoke generate.installer``.
 
-import os.path
-import pkgutil
+# import os.path
+# import pkgutil
 import shutil
 import sys
 import struct
