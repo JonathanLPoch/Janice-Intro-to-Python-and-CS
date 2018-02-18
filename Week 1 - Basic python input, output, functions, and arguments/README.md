@@ -128,7 +128,7 @@ outputs
 ```
 
 ## Input
-Take a user input, you typically store it in a variable.
+Take a user input, you typically store it in a variable. `input()` stores your input as a *string*.
 ```
 x = input("Give me a number: ")
 print(x)
