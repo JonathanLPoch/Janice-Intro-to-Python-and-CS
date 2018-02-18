@@ -34,7 +34,12 @@ This might help:
 
 - `pwd` - This means "**p**rint **w**orking **d**irectory." It lists the full **path** of where you currently are, where you're currently "working."
 
-- `cd [SOME_DIRECORY]` - This means **c**hange **d**irectory. Call something like `cd ~/Desktop` to change your **directory** to the desktop.
+- `cd [SOME_DIRECORY]` - This means **c**hange **d**irectory. Call something like `cd ~/Desktop` to change your **directory** to the desktop. Remember, spaces are expressed as: `cd directory\ with\ space` or `cd "directory with space"`. `.` refers to your current directory, and `..` refers to the directory "one level up."
+  - Your `pwd`, where you currently are, is `/Users/lanicejee/Desktop` or `~/Desktop`.
+    - `.` refers to `/Users/lanicejee/Desktop` or `~/Desktop`.
+    - `..` refers to `/Users/lanicejee` or `~`.
+
+- `mkdir` - This means **m**a**k**e **dir**ectory. It creates a folder. Simple.
 
 - `touch` - This creates a blank file of whatever type you want. `touch test.txt` creates a `test.txt` file in whatever directory you're in. You can specify whatever type you want, like `test.py` for a python file.
 
@@ -68,3 +73,9 @@ In your `terminal`, run `atom ~/Janice-Intro-to-Python-and-CS`. `atom` is a comm
 
 #### Seeing the same markdown preview in `atom`
 So see how the text is really nicely formatted in the repo (https://github.com/JonathanLPoch/Janice-Intro-to-Python-and-CS)? That's compiled `markdown` code. In `atom`, press all three: Control-Shift-M and you'll get the same preview!
+
+#### Tab completion
+When in your `terminal`, hit the `tab` key once to complete your file command, file name, or directory, or hit it twice if you have an ambiguous name. It makes a guess based on what you're possibly typing (say if you use `cd`, it'll guess based off character matching of all the directories you can list).
+- Type out `cd ~/Janice` and hit `tab` to complete the full name.
+- But type `cd ~/D` and hit `tab` to complete. It won't, right? But hit it **twice** and you'll see all the possibilities:
+![tab](images/tab_completion.png)
