@@ -19,6 +19,12 @@ How many pennies? 100
 ********** (one hundred of these)
 Your total is: 300 cents
 ```
+Steps:
+- Create the `python` file using the `terminal`
+- Open it in `atom` using the `terminal`
+- Do the thing
+- Run it using the `terminal`
+
 
 We'll expand on this to do things like:
 - Prompt the user repeatedly until you say "quit"
