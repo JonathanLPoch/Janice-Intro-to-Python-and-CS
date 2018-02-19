@@ -79,3 +79,6 @@ When in your `terminal`, hit the `tab` key once to complete your file command, f
 - Type out `cd ~/Janice` and hit `tab` to complete the full name.
 - But type `cd ~/D` and hit `tab` to complete. It won't, right? But hit it **twice** and you'll see all the possibilities:
 ![tab](images/tab_completion.png)
+
+#### Screenshots
+Maybe you can't in `atom`, but if you use `Command+Control+Shift+4`, you can take a screenshot, *but then you can use Command+V to paste it in say, FB messenger, Slack, etc.*
