@@ -72,7 +72,7 @@ These are commands for interacting with `GitHub` through your `Terminal`.
 In your `terminal`, run `atom ~/Janice-Intro-to-Python-and-CS`. `atom` is a command that tells your computer "hey, open `atom` please." It's the alternative to clicking on the icon on your mac's dock. `~/Janice-Intro-to-Python-and-CS` is the **argument** (remember functions? It works the same way) you pass in saying "hey, open `atom` with this directory loaded in."
 
 #### Seeing the same markdown preview in `atom`
-So see how the text is really nicely formatted in the repo (https://github.com/JonathanLPoch/Janice-Intro-to-Python-and-CS)? That's compiled `markdown` code. In `atom`, press all three: Control-Shift-M and you'll get the same preview!
+So see how the text is really nicely formatted in the repo (https://github.com/JonathanLPoch/Janice-Intro-to-Python-and-CS) ? That's compiled `markdown` code. In `atom`, press all three: Control-Shift-M and you'll get the same preview!
 
 #### Tab completion
 When in your `terminal`, hit the `tab` key once to complete your file command, file name, or directory, or hit it twice if you have an ambiguous name. It makes a guess based on what you're possibly typing (say if you use `cd`, it'll guess based off character matching of all the directories you can list).
