@@ -8,6 +8,6 @@ p = input("How many pennies? ")
 print("*"*int(p))
 
 def countChange():
-    print(int(q)+int(d)+int(n)+int(p))
+    print(int(q)*25+int(d)*10+int(n)*5+int(p))
 
 countChange()
